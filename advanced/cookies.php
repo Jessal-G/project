@@ -6,7 +6,7 @@
     ?>
 <html lang="en">
 <body>
-    
+   
      <?php 
      if(!isset($COOKIE[$cookie_name])){
         echo "cookie named'" . $cookie_name ."'is not set!";
